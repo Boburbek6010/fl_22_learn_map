@@ -1,0 +1,44 @@
+name: fl_22_learn_map
+description: "A new Flutter project for FL-22"
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  # Flutter map
+  flutter_map: ^6.1.0
+  geolocator: ^10.1.0
+  latlong2: ^0.9.0
+
+  # Yandex map
+  yandex_mapkit: ^3.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
