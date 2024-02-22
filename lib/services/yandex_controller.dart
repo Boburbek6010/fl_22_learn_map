@@ -1,6 +1,4 @@
 import 'dart:developer';
-
-import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 
@@ -92,7 +90,6 @@ class YController{
     );
     mapObjets.add(placeMarkMapObject);
   }
-
 
   static void tappedLocation(Point tappedPoint){
     final PlacemarkMapObject placeMarkMapObject = PlacemarkMapObject(
